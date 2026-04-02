@@ -48,3 +48,180 @@ body {
 .navbar li:last-child a {
     font-weight: bold;
 }
+
+/* BANNER DA TELA INICIAL */
+.banner {
+    height: 800px;
+    background-image: url('/assets/imgs/bg-jelly-fish-para-home.png'); 
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner p {
+    font-size: 55px;
+    width: 400px; 
+    margin: 0;
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+.social {
+    background-color: #ebebeb; 
+    padding: 60px 0;
+}
+
+.social .container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+}
+
+.box img {
+    height: 100px; 
+    margin-bottom: 10px;
+}
+
+.box h4 {
+    color: #d11c5c; 
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.box p {
+    color: #444;
+    line-height: 1.4;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #32b9cd; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .container {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.footer h4 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.version {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* TELA DE LOGIN */
+
+.login {
+    min-height: 85vh; 
+    background-image: url('/assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.card-login {
+    background-color: #e5e5e5;
+    padding: 40px;
+    border-radius: 10px;
+    width: 450px;
+    text-align: left;
+}
+
+.card-login h2 {
+    color: #e35a82; 
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.campo span {
+    color: #e35a82; 
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    border: 2px solid #32b9cd;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.campo input::placeholder {
+    color: #ccc;
+    text-align: center;
+}
+
+.botao {
+    background-color: #e91e63; 
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0; 
+    transition: background 0.3s;
+}
+
+/*Ao passar o mouse troca a cor do botão*/
+.botao:hover {
+    background-color: #c2185b;
+}
+
+/* TELA DE CADASTRO */
+.card-cadastro {
+    background-color: #e5e5e5;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 600px; 
+}
+.card-cadastro h2 {
+    color: #e35a82;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
